@@ -1,0 +1,35 @@
+# AI Product Engineering (12 Weeks)
+
+### Design, Build & Deploy Cloud-Native Web Apps with Claude AI!
+
+**Course Outline:**
+
+| Week  | Topic                                               | Tools & Frameworks                    |
+| ----- | --------------------------------------------------- | ------------------------------------- |
+| 1     | Product Requirements Document (PRD)                 |                                       |
+| 1     | Software Requirements Specification (SRS)           |                                       |
+| 2     | Entity Relationship Diagrams (ERD)                  | Mermaid                               |
+| 3     | Design Systems & Mood Boards                        | Figma                                 |
+| 4     | Develop Frontend UI Components                      | TypeScript, React, Zustand            |
+| 7     | Develop & Integrate Backend APIs                    | C#, .NET, PostgreSQL                  |
+| 10    | Automated Software Tests                            | Playwright, RTL + Vitest, xUnit + Moq |
+| 12    | CI/CD, DevOps, Cloud Deployment                     | Vercel, Docker, Azure App Services    |
+| Bonus | Software Maintenance, Agile Workflow, Kanban Boards | GitHub Projects                       |
+
+# ML Data Engineering (8 Weeks)
+
+### Analyze, Train & Deploy Data Models on Cloud Jupyter Notebooks!
+
+**Course Outline:**
+
+| Page  | Topic                                                            | Tools & Frameworks              |
+| ----- | ---------------------------------------------------------------- | ------------------------------- |
+| 1     | Define Situation, Task, Action, and Result (STAR)                |                                 |
+| 2     | Exploratory Data Analysis (EDA)                                  |                                 |
+| 2     | Data Cleaning, Synthetic Minority Oversampling Technique (SMOTE) |                                 |
+| 3     | Normalization & Feature Engineering                              |                                 |
+| 4     | Linear Regression, Logistic Regression, Decision Trees           |                                 |
+| 5     | Random Forest, K-Means Clustering                                |                                 |
+| 6     | Train, Test & Measure ML Model                                   | Scikit-learn, TensorFlow        |
+| 8     | Deploy ML Model as Interactive Python Notebook (.ipynb)          | Kaggle, joblib, Power BI        |
+| Bonus | Deploy ML Model as Web Service Data Pipeline                     | Django REST Framework, Azure ML |
