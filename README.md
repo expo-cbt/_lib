@@ -4,17 +4,17 @@
 
 #### Design, Build & Deploy Cloud-Native Web Apps with Claude AI 🚀
 
-| Week  | Topic                                     | Tools & Frameworks                    |
-| ----- | ----------------------------------------- | ------------------------------------- |
-| 1     | Product Requirements Document (PRD)       |                                       |
-| 1     | Software Requirements Specification (SRS) |                                       |
-| 2     | Entity Relationship Diagrams (ERD)        | Mermaid                               |
-| 3     | Design Systems & Mood Boards              | Figma                                 |
-| 4     | Develop Frontend UI Components            | TypeScript, React, Zustand            |
-| 7     | Develop & Integrate Backend APIs          | C#, .NET, PostgreSQL                  |
-| 10    | Automated Software Tests                  | Playwright, RTL + Vitest, xUnit + Moq |
-| 12    | CI/CD, DevOps, Cloud Deployment           | Vercel, Docker, Azure App Services    |
-| Bonus | Software Maintenance, Agile Workflows     | GitHub Projects (Kanban)              |
+| Week  | Topic                                     | Tools & Frameworks                         |
+| ----- | ----------------------------------------- | ------------------------------------------ |
+| 1     | Product Requirements Document (PRD)       |                                            |
+| 1     | Software Requirements Specification (SRS) |                                            |
+| 2     | Entity Relationship Diagrams (ERD)        | Mermaid                                    |
+| 3     | Design Systems & Mood Boards              | Figma                                      |
+| 4     | Develop Frontend UI Components            | TypeScript, React, Zustand, TanStack Query |
+| 7     | Develop & Integrate Backend APIs          | C#, .NET, PostgreSQL                       |
+| 10    | Automated Software Tests                  | Playwright, RTL + Vitest, xUnit + Moq      |
+| 12    | CI/CD, DevOps, Cloud Deployment           | Vercel, Docker, Azure App Services         |
+| Bonus | Software Maintenance, Agile Workflows     | GitHub Projects (Kanban)                   |
 
 ## ML Data Engineering (8 Weeks)
 
