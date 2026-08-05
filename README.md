@@ -1,28 +1,26 @@
-# AI Product Engineering (12 Weeks)
+# ExpoCBT Shared Docs & Assets
 
-### Design, Build & Deploy Cloud-Native Web Apps with Claude AI!
+## AI Product Engineering (12 Weeks)
 
-**Course Outline:**
+#### Design, Build & Deploy Cloud-Native Web Apps with Claude AI 🚀
 
-| Week  | Topic                                               | Tools & Frameworks                    |
-| ----- | --------------------------------------------------- | ------------------------------------- |
-| 1     | Product Requirements Document (PRD)                 |                                       |
-| 1     | Software Requirements Specification (SRS)           |                                       |
-| 2     | Entity Relationship Diagrams (ERD)                  | Mermaid                               |
-| 3     | Design Systems & Mood Boards                        | Figma                                 |
-| 4     | Develop Frontend UI Components                      | TypeScript, React, Zustand            |
-| 7     | Develop & Integrate Backend APIs                    | C#, .NET, PostgreSQL                  |
-| 10    | Automated Software Tests                            | Playwright, RTL + Vitest, xUnit + Moq |
-| 12    | CI/CD, DevOps, Cloud Deployment                     | Vercel, Docker, Azure App Services    |
-| Bonus | Software Maintenance, Agile Workflow, Kanban Boards | GitHub Projects                       |
+| Week  | Topic                                     | Tools & Frameworks                    |
+| ----- | ----------------------------------------- | ------------------------------------- |
+| 1     | Product Requirements Document (PRD)       |                                       |
+| 1     | Software Requirements Specification (SRS) |                                       |
+| 2     | Entity Relationship Diagrams (ERD)        | Mermaid                               |
+| 3     | Design Systems & Mood Boards              | Figma                                 |
+| 4     | Develop Frontend UI Components            | TypeScript, React, Zustand            |
+| 7     | Develop & Integrate Backend APIs          | C#, .NET, PostgreSQL                  |
+| 10    | Automated Software Tests                  | Playwright, RTL + Vitest, xUnit + Moq |
+| 12    | CI/CD, DevOps, Cloud Deployment           | Vercel, Docker, Azure App Services    |
+| Bonus | Software Maintenance, Agile Workflows     | GitHub Projects (Kanban)              |
 
-# ML Data Engineering (8 Weeks)
+## ML Data Engineering (8 Weeks)
 
-### Analyze, Train & Deploy Data Models on Cloud Jupyter Notebooks!
+#### Analyze, Train & Deploy Data Models on Cloud Jupyter Notebooks 🚀
 
-**Course Outline:**
-
-| Page  | Topic                                                            | Tools & Frameworks              |
+| Week  | Topic                                                            | Tools & Frameworks              |
 | ----- | ---------------------------------------------------------------- | ------------------------------- |
 | 1     | Define Situation, Task, Action, and Result (STAR)                |                                 |
 | 2     | Exploratory Data Analysis (EDA)                                  |                                 |
