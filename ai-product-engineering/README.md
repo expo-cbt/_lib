@@ -11,3 +11,5 @@ Software Development Life Cycle is the structured process used to plan, build, t
 | 5     | Testing               | Find and fix bugs; verify requirements are met         |
 | 6     | Deployment            | Release the software to users                          |
 | 7     | Maintenance           | Fix issues, update features, and improve performance   |
+
+

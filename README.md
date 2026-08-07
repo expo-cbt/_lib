@@ -1,5 +1,7 @@
 # ExpoCBT Shared Docs & Assets
 
+## About ExpoCBT
+
 ## AI Product Engineering (12 Weeks)
 
 #### Design, Build & Deploy Cloud-Native Web Apps with Claude AI 🚀
