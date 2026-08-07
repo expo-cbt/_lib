@@ -58,9 +58,9 @@ Serves as documentation for developers and database administrators.
 
 ## Modules
 
-- Candidates
 - Exams
 - Questions
+- Candidates
 
 ## Models
 

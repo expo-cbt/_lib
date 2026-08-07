@@ -2,6 +2,14 @@
 
 ## About ExpoCBT
 
+[Version 2](https://github.com/expo-cbt/web)
+
+> Under development
+
+[Version 1](https://github.com/expo-cbt/v1)
+
+![alt text](assets/exxpo-cbt-v1.png)
+
 ## AI Product Engineering (12 Weeks)
 
 #### Design, Build & Deploy Cloud-Native Web Apps with Claude AI 🚀
