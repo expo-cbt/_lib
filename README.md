@@ -15,11 +15,11 @@ ExpoCBT (formerly Exxpo CBT) is a Computer-Based Test web application developed 
 **Features :**
 
 - Exam questions bulk upload via Microsoft Excel (.xlsx)
-- Exam schedule notifications
+- Exam schedule email notifications
 - Camera, microphone, and location permissions
-- Result snapshot generation and off-prem storage
+- Result snapshot generation and secure off-prem storage
 - Certificate generation and verification link
-- Integrated **Machine Learning** Model for malpractice detection
+- Integrated **Machine Learning** model for malpractice detection
 
 ![question page screenshot](https://raw.githubusercontent.com/expo-cbt/web/refs/heads/main/public/social-preview.png)
 
@@ -33,9 +33,9 @@ ExpoCBT (formerly Exxpo CBT) is a Computer-Based Test web application developed 
 
 **Features :**
 
-- Multiple exams per sitting
+- Attempt multiple subjects per sitting
 - Question diagram support
-- Auto-save to file
+- Auto-save answer support
 - Offline support
 
 | Home Page                                                                                                    | Question Page                                                                                                 |
@@ -56,7 +56,7 @@ ExpoCBT (formerly Exxpo CBT) is a Computer-Based Test web application developed 
 - Timed exam sessions
 - Multiple-choice questions
 - Automated scoring and result generation
-- Exam analytics and reports dashboard
+- Exam analysis and reports dashboard
 
 | Home Page                                                                                                 | Analytics Page                                                                                                    |
 | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
