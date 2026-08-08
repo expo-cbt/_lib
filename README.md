@@ -1,6 +1,6 @@
 # ExpoCBT Shared Docs & Assets
 
-ExpoCBT (formerly Exxpo CBT) is a Computer-Based Test Web Application developed by Emmanuel Tugbeh (AI/ML Product Engineer, HWP Labs)
+ExpoCBT (formerly Exxpo CBT) is a Computer-Based Test Web Application developed by [Emmanuel Tugbeh](https://github.com/2gbeh) (AI/ML Product Engineer, [HWP Labs](https://github.com/hwp-labs))
 
 # Changelog
 
