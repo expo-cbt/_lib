@@ -1,0 +1,95 @@
+# Tech Stack & Infrastructure
+
+- **Technology Stack :** The programming languages, frameworks, libraries, and tools used to `build the software`.
+- **Software Infrastructure :** The cloud services, servers, databases, storage, networking, monitoring, and other resources required to `run and operate the software`.
+- **System Architecture :** The overall `structure of the software` and how its components communicate and interact with each other.
+
+#### Discussion
+
+- Tech stack, and why?
+- Infrastructure, and why?
+- Budget and time estimates?
+
+# Documentation
+
+> PROMPT : generate tech stack, infras and architecture markdown file for basic cbt web app using react, asp.net and azure
+
+## Tech Stack
+
+| Component | Technology                            | Purpose                                                              |
+| --------- | ------------------------------------- | -------------------------------------------------------------------- |
+| Frontend  | TypeScript, React/Next.js (Hybrid\*)  | Responsive web application and UI                                    |
+| Styling   | Tailwind CSS, shadcn/ui               | Rapid development of responsive and consistent interfaces            |
+| Backend   | C#, ASP.NET Core Web API              | REST API, business logic, authentication, authorization, and scoring |
+| Testing   | RTL + Vitest, xUnit + Moq, Playwright | Frontend, backend, integration, and end-to-end testing               |
+
+## Infrastructure
+
+| Component       | Technology                                       | Purpose                                                                          |
+| --------------- | ------------------------------------------------ | -------------------------------------------------------------------------------- |
+| Database        | Azure SQL Database / Azure PostgreSQL / Supabase | Relational storage for users, exams, questions, attempts, answers, and results   |
+| File Storage    | Azure Blob Storage / Supabase                    | Storage for optional files/assets                                                |
+| Hosting         | Azure App Service / Vercel                       | Hosting the frontend and backend where supported by the available free allowance |
+| Backups         | **Azure SQL automated backups**                  | Database recovery and protection against data loss                               |
+| Monitoring      | Azure Monitor, Azure App Insights                | Application logs, errors, performance, and availability monitoring               |
+| Version Control | GitHub                                           | Source code management and CI/CD                                                 |
+
+## Architecture
+
+```sh
+Next.js + React + TypeScript
+            │
+            ▼
+     ASP.NET Core Web API
+            │
+      ┌─────┴─────┐
+      ▼           ▼
+ Azure SQL    Azure Blob Storage
+      │
+      ▼
+ Azure SQL Backups
+
+Azure Monitor + Application Insights
+            │
+            ▼
+       Monitoring
+```
+
+````sh
+                    ┌─────────────────────┐
+                    │      Candidate      │
+                    │      Examiner       │
+                    │       Seeder        │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                 ┌─────────────────────────┐
+                 │ Next.js + React + TS    │
+                 │      Frontend           │
+                 └────────────┬────────────┘
+                              │ HTTPS / REST
+                              ▼
+                 ┌─────────────────────────┐
+                 │ ASP.NET Core Web API    │
+                 │       Backend           │
+                 ├─────────────────────────┤
+                 │ Authentication          │
+                 │ Authorization            │
+                 │ Exam Management         │
+                 │ Question Management     │
+                 │ Exam Attempts           │
+                 │ Scoring                 │
+                 │ Results                 │
+                 └───────┬─────────┬───────┘
+                         │         │
+               ┌─────────▼───┐   ┌─▼────────────────┐
+               │ PostgreSQL  │   │ Azure Blob        │
+               │  Database   │   │ Storage           │
+               └─────────────┘   └──────────────────┘
+
+                 ┌─────────────────────────┐
+                 │ Azure Monitor +         │
+                 │ Application Insights    │
+                 └─────────────────────────┘
+                 ```
+````

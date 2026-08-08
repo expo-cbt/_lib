@@ -1,6 +1,6 @@
-# Introduction
+# Product Requirements Document (PRD)
 
-A **Product Requirements Document (PRD)** describes what the product should do and why.
+A Product Requirements Document (PRD) describes what the product should do and why.
 
 It is written mainly by the **Product Manager**, and focuses on business goals, user needs, and features.
 
@@ -27,9 +27,9 @@ It is written mainly by the **Product Manager**, and focuses on business goals, 
 - - Proctored exam permissions
 - - Generate result snapshot and securely store off-prem
 
-# Body
+# Documentation
 
-> **Prompt:** generate prd markdown file for basic cbt web application
+> PROMPT: generate prd markdown file for basic cbt web ap
 
 ## 1. Product Overview
 
