@@ -1,43 +1,60 @@
 # ExpoCBT Shared Docs & Assets
 
-## About ExpoCBT
+ExpoCBT (formerly Exxpo CBT) is a Computer-Based Test Web Application developed by Emmanuel Tugbeh (AI/ML Product Engineer, HWP Labs)
 
-[Version 2](https://github.com/expo-cbt/web)
+# Changelog
 
-> Under development
+## [Version 3 (under development)](https://github.com/expo-cbt/web)
 
-[Version 1](https://github.com/expo-cbt/v1)
+| Date     | Jun 27, 2026                                                                   |
+| -------- | ------------------------------------------------------------------------------ |
+| Client   | Department of Computer Science & Engineering, Obafemi Awolowo University (OAU) |
+| Location | Ile-Ife, Osun State                                                            |
 
-![alt text](assets/exxpo-cbt-v1.png)
+**Features:**
 
-## AI Product Engineering (12 Weeks)
+- Exam questions bulk upload via Microsoft Excel (.xlsx)
+- Exam schedule notifications
+- Camera, microphone, and location permissions
+- Result snapshot generation and off-prem storage
+- Certificate generation and verification link
+- Integrated **Machine Learning** Model for malpractice detection
 
-#### Design, Build & Deploy Cloud-Native Web Apps with Claude AI 🚀
+![question page screenshot](https://raw.githubusercontent.com/expo-cbt/web/refs/heads/main/public/social-preview.png)
 
-| Week  | Topic                                     | Tools & Frameworks                    |
-| ----- | ----------------------------------------- | ------------------------------------- |
-| 1     | Product Requirements Document (PRD)       |                                       |
-| 1     | Software Requirements Specification (SRS) |                                       |
-| 2     | Entity Relationship Diagrams (ERD)        | Mermaid                               |
-| 3     | Design Systems & Mood Boards              | Figma                                 |
-| 4     | Develop Frontend UI Components            | TypeScript, React, Zustand            |
-| 7     | Develop & Integrate Backend APIs          | C#, .NET, PostgreSQL                  |
-| 10    | Automated Software Tests                  | Playwright, RTL + Vitest, xUnit + Moq |
-| 12    | CI/CD, DevOps, Cloud Deployment           | Vercel, Docker, Azure App Services    |
-| Bonus | Software Maintenance, Agile Workflows     | GitHub Projects (Kanban)              |
+## [Version 2](https://github.com/expo-cbt/v2)
 
-## ML Data Engineering (8 Weeks)
+| Date     | Dec 7, 2021                                        |
+| -------- | -------------------------------------------------- |
+| Client   | D-Peterson Foundation & University Of Delta, Agbor |
+| Location | Agbor, Delta State                                 |
 
-#### Analyze, Train & Deploy Data Models on Cloud Jupyter Notebooks 🚀
+**Features:**
 
-| Week  | Topic                                                            | Tools & Frameworks         |
-| ----- | ---------------------------------------------------------------- | -------------------------- |
-| 1     | Define Situation, Task, Action, and Result (STAR)                |                            |
-| 2     | Exploratory Data Analysis (EDA)                                  |                            |
-| 2     | Data Cleaning, Synthetic Minority Oversampling Technique (SMOTE) |                            |
-| 3     | Normalization & Feature Engineering                              |                            |
-| 4     | Linear Regression, Logistic Regression, Decision Trees           |                            |
-| 5     | Random Forest, K-Means Clustering                                |                            |
-| 6     | Train, Test & Measure ML Model                                   | Scikit-learn, TensorFlow   |
-| 8     | Deploy ML Model as Interactive Python Notebook (.ipynb)          | Joblib, Kaggle             |
-| Bonus | Deploy ML Model as Data Pipeline & Web Service                   | Power BI, Django, Azure ML |
+- Multiple exams per sitting
+- Question diagram support
+- Auto-save to file
+- Offline support
+
+| Home Page                                                                                                    | Question Page                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
+| ![home page screenshot](<https://raw.githubusercontent.com/expo-cbt/v2/refs/heads/main/photos/ui%20(2).png>) | ![question page screenshot](https://raw.githubusercontent.com/expo-cbt/v2/refs/heads/main/social-preview.png) |
+
+## [Version 1](https://github.com/expo-cbt/v1)
+
+| Date     | Dec 6, 2018                                    |
+| -------- | ---------------------------------------------- |
+| Client   | NIIT Benin Centre (Osehi Elamah ICT Institute) |
+| Location | Benin, Edo State                               |
+
+**Features:**
+
+- User authentication
+- Timed exam sessions
+- Multiple-choice questions
+- Automated scoring and result generation
+- Exam analytics and reports dashboard
+
+| Home Page                                                                                                 | Analytics Page                                                                                                    |
+| --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| ![auth page screenshot](https://raw.githubusercontent.com/expo-cbt/v1/refs/heads/main/social-preview.png) | ![analytics page screenshot](<https://raw.githubusercontent.com/expo-cbt/v1/refs/heads/main/photos/ui%20(4).png>) |
