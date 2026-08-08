@@ -6,12 +6,13 @@ ExpoCBT (formerly Exxpo CBT) is a Computer-Based Test Web Application developed 
 
 ## [Version 3 (under development)](https://github.com/expo-cbt/web)
 
-| Date     | Jun 27, 2026                                                                   |
-| -------- | ------------------------------------------------------------------------------ |
-| Client   | Department of Computer Science & Engineering, Obafemi Awolowo University (OAU) |
-| Location | Ile-Ife, Osun State                                                            |
+**Date :** Jun 27, 2026
 
-**Features:**
+**Client :** Dept. of Computer Science & Engineering, Obafemi Awolowo University (OAU)
+
+**Location :** Ile-Ife, Osun State
+
+**Features :**
 
 - Exam questions bulk upload via Microsoft Excel (.xlsx)
 - Exam schedule notifications
@@ -24,12 +25,13 @@ ExpoCBT (formerly Exxpo CBT) is a Computer-Based Test Web Application developed 
 
 ## [Version 2](https://github.com/expo-cbt/v2)
 
-| Date     | Dec 7, 2021                                        |
-| -------- | -------------------------------------------------- |
-| Client   | D-Peterson Foundation & University Of Delta, Agbor |
-| Location | Agbor, Delta State                                 |
+**Date :** Dec 7, 2021
 
-**Features:**
+**Client :** University Of Delta, Rotary Club, and D-Peterson Foundation
+
+**Location :** Agbor, Delta State
+
+**Features :**
 
 - Multiple exams per sitting
 - Question diagram support
@@ -42,12 +44,13 @@ ExpoCBT (formerly Exxpo CBT) is a Computer-Based Test Web Application developed 
 
 ## [Version 1](https://github.com/expo-cbt/v1)
 
-| Date     | Dec 6, 2018                                    |
-| -------- | ---------------------------------------------- |
-| Client   | NIIT Benin Centre (Osehi Elamah ICT Institute) |
-| Location | Benin, Edo State                               |
+**Date :** Dec 6, 2018
 
-**Features:**
+**Client :** NIIT Benin Centre (Osehi Elamah ICT Institute)
+
+**Location :** Benin, Edo State
+
+**Features :**
 
 - User authentication
 - Timed exam sessions
