@@ -1,93 +1,53 @@
 # Entity Relationship Diagram (ERD)
 
-> https://mermaid.ai/open-source/syntax/entityRelationshipDiagram.html
-
 An Entity-Relationship Diagram (ERD) is a visual representation of the data in a database.
 
 It shows entities (tables), their attributes (columns), and the relationships between them.
 
-#### Basic ERD Symbols
+## Concepts of ERD
 
-- Rectangle → Entity (Table)
-- Oval → Attribute (Column)
-- Diamond → Relationship
-- Lines → Connect entities and relationships
+| Component                 | Symbol                   | Description                     | Example                                                  |
+| ------------------------- | ------------------------ | ------------------------------- | -------------------------------------------------------- |
+| Entity (Table)            | Rectangle                | A real-world object or class    | Exam, Question, Candidate                                |
+| Attribute (Column, Field) | Oval                     | Properties of an entity         | Exam Duration, Question Prompt, Candidate Full Name      |
+| Relationship              | Diamond                  | Link between entities           | Candidate `registers` Exam, Candidate `answers` Question |
+| Primary Key (PK)          | Underlined attribute     | Uniquely identifies each record | `exam_id`, `question_id`, `candidate_id`                 |
+| Foreign Key (FK)          | Attribute with FK marker | Reference to a primary key      | `question_id`                                            |
+| Unique Key (UK)           | Attribute with UK marker | Reference to a unique key       | `candidate.email`                                        |
 
-#### Components of an ERD
+## Benefits of ERD
 
-Component; Description; Example
+- Helps design databases before implementation (the Figma of database design).
+- Serves as documentation for developers and database administrators.
 
-- Entity; A real-world object or table; Student, Employee
-- Attribute; Properties of an entity; Name, Age, Salary
-- Primary Key (PK); Uniquely identifies each record; Student_ID
-- Foreign Key (FK); Links two tables; Course_ID
-- Relationship; Association between entities; Student enrolls in Course
+## [Mermaid ERD](https://mermaid.ai/open-source/syntax/entityRelationshipDiagram.html)
 
-#### Relationship Types
+Mermaid ERD is a way to create Entity-Relationship Diagrams using text/code with the Mermaid diagramming syntax.
 
-```sh
-|| = one (mandatory)
-o| = zero or one
-|{ = one or many
-o{ = zero or many
-```
+#### Mermaid Relationship Notation
 
-- One-to-One (1:1 ||--||); One person has one passport.
-- One-to-Many (1:M ||--o{); One department has many employees.
-- Many-to-Many (M:N }o--o{); Many students enroll in many courses.
-- - This is usually implemented using a `pivote table` such as Enrollment.
+| Component          | Character     | Description                                                                         |
+| ------------------ | ------------- | ----------------------------------------------------------------------------------- |
+| One-to-One (1:1)   | `pipe`        | Each exam has exam de. Known as `extension` tables                                  |
+| One-to-Many (1:M)  | `curly brace` | Each **Exam** contains several **Questions** . Known as `parent–child` tables       |
+| Many-to-Many (M:N) | `lowercase o` | Several **Candidates** write several **Exams**. Known as `pivot or junction` tables |
 
-#### Benefits of ERD
+#### Mermaid Data Types
 
-Helps design databases before implementation.
-Reduces data redundancy.
-Improves data integrity.
-Makes database structure easier to understand.
-Serves as documentation for developers and database administrators.
+> PROMPT: list of erd mermaid data types
 
-#### Data Types; Example
-
-- Integer; int, bigint, smallint
-- Decimal; decimal, float, double
-- Text; char, varchar, text
-- Date/time; date, datetime, timestamp
-- Boolean; boolean, bool
-- Binary; blob, binary
-- JSON; json
-- UUID; uuid
-
-## Modules
-
-- Exams
-- Questions
-- Candidates
-
-## Models
-
-For a **bootcamp CBT exam-only system**, the models can be reduced to:
-
-- **User** — Accounts for admins, exam creators, and exam takers.
-- **Role** — Defines user permissions (owner, examiner, candidate, seeder).
-- **Permission** — Defines specific actions a user can perform.
-- **RolePermission (Policy)** — Defines specific actions a user can perform.
-- **UserRole** — A junction model connecting users and roles.
-- **Notification** — Sends exam alerts and result updates.
-- **AuditLog** — Tracks system activities and changes.
-- **Settings** — Stores CBT configuration settings.
-
----
-
-- **Examiner** — Stores exam information such as title, duration, instructions, and status.
-- **Exam** — Stores exam information such as title, duration, instructions, and status.
-- **ExamQuestion (Question)** — Links questions to specific exams.
-- **Candidate** — Stores exam information such as title, duration, instructions, and status.
-- **CandidateAnswer (Answer)** — Stores answers submitted by candidates.
-- **Result** — Stores exam outcome and final status.
-
-This is closer to a **CBT platform** rather than a school/bootcamp management system.
-
-## Pages
-
-- Batch upload Seed portal - Upload excel + settings + instructions + randomize + hardware, form multipler (google forms) + image + reorder, preview, submit, manage,
-
-- Users, rbac\*, exams settings.json, candidates, exam_questions, exam_transaction + score + json.answers like payments
+- `string`
+- `int`
+- `float`
+- `double`
+- `decimal`
+- `boolean`
+- `date`
+- `datetime`
+- `timestamp`
+- `time`
+- `uuid`
+- `binary`
+- `text`
+- `json`
+- `enum`

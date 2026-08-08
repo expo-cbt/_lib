@@ -12,6 +12,14 @@ It is written mainly by the **System Analysts**, and focuses on technical and fu
 - Interfaces
 - Acceptance criteria
 
+#### Discussion
+
+- Cybersecurity and malpractice prevention?
+- - Use of Universally Unique Identifier (UUID)
+- - Mask person identity fields in database (name, email, tel)
+- - Proctored exam permissions
+- - Generate result snapshot and securely store off-prem
+
 # Documentation
 
 > PROMPT : generate srs markdown file for basic cbt web app

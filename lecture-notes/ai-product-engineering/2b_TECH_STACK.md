@@ -1,4 +1,4 @@
-# Tech Stack, Infrastructure, and Architecture
+# Tech Stack, Infrastructure & Architecture
 
 - **Technology Stack :** The programming languages, frameworks, libraries, and tools used to `build the software`.
 - **Software Infrastructure :** The cloud services, servers, databases, storage, networking, monitoring, and other resources required to `run and operate the software`.

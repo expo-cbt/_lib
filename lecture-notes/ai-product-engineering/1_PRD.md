@@ -23,13 +23,10 @@ It is written mainly by the **Product Manager**, and focuses on business goals, 
 - - Detailed instructions
 - - Timer indicator when less than 5mins left
 - - Feedback after test
-- Cybersecurity and malpractice prevention?
-- - Proctored exam permissions
-- - Generate result snapshot and securely store off-prem
 
 # Documentation
 
-> PROMPT: generate prd markdown file for basic cbt web ap
+> PROMPT: generate prd markdown file for basic cbt web app
 
 ## 1. Product Overview
 
