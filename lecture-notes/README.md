@@ -1,7 +1,7 @@
 # Course Overview
 
-- 6 hours Weekly Training ✅
-- 2 hours Weekly Mentorship ✅
+- 6 hours Weekly Training on [YouTube](https://youtube.com/@2gbeh) ✅
+- 2 hours Weekly Mentorship on [Twitter](https://x.com/@2gbeh) ✅
 - Online Exam and Certification ✅
 - Project Research & Presentation ✅
 
