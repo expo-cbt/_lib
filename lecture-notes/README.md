@@ -11,6 +11,20 @@
 
 > A case study on developing **ExpoCBT**, an open-source CBT WebApp, using `Software Development Life Cycle (SDLC)`
 
+SDLC is the structured process used to plan, build, test, deploy, and maintain software.
+
+| Phase | Activity              | Description                                            |
+| ----- | --------------------- | ------------------------------------------------------ |
+| 1     | Planning              | Define goals, scope, budget, and timeline              |
+| 2     | Requirements Analysis | Gather and document user needs                         |
+| 3     | Design                | Create the system architecture and UI/database designs |
+| 4     | Development           | Write the code                                         |
+| 5     | Testing               | Find and fix bugs; verify requirements are met         |
+| 6     | Deployment            | Release the software to users                          |
+| 7     | Maintenance           | Fix issues, update features, and improve performance   |
+
+#### Course Outline
+
 | Week  | Topic                                     | Tools & Frameworks                    |
 | ----- | ----------------------------------------- | ------------------------------------- |
 | 1     | Product Requirements Document (PRD)       |                                       |
@@ -28,6 +42,19 @@
 #### Analyze, Train & Deploy Data Models on Cloud Jupyter Notebooks 🚀
 
 > A case study on developing a Machine Learning Model, Web Service, and Data Pipeline for Exam Malpractice Detection using `Cross-Industry Standard Process for Data Mining (CRISP-DM)`.
+
+CRISP-DM is a 6-phase framework for delivering data science and AI projects.
+
+| Phase | Activity               | Description                                                              |
+| ----- | ---------------------- | ------------------------------------------------------------------------ |
+| 1     | Business Understanding | Define objectives and requirements from a business perspective           |
+| 2     | Data Understanding     | Collect and explore initial data to identify quality issues/insights     |
+| 3     | Data Preparation       | Clean, transform, and structure data for modeling                        |
+| 4     | Modeling               | Select and apply appropriate machine learning algorithm, tune parameters |
+| 5     | Evaluation             | Test the model using unseen data to measure its accuracy                 |
+| 6     | Deployment             | Release trained model into production for real-world predictions         |
+
+#### Course Outline
 
 | Week  | Topic                                                            | Tools & Frameworks         |
 | ----- | ---------------------------------------------------------------- | -------------------------- |

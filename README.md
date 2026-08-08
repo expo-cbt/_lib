@@ -1,6 +1,6 @@
 # ExpoCBT Shared Docs & Assets
 
-ExpoCBT (formerly Exxpo CBT) is a Computer-Based Test web application developed by [Emmanuel Tugbeh](https://github.com/2gbeh) (AI/ML Product Engineer, [HWP Labs](https://github.com/hwp-labs))
+ExpoCBT (formerly Exxpo CBT) is a Computer-Based Testing web application developed by [Emmanuel Tugbeh](https://github.com/2gbeh) (AI/ML Product Engineer, [HWP Labs](https://github.com/hwp-labs))
 
 # Changelog
 
@@ -16,7 +16,7 @@ ExpoCBT (formerly Exxpo CBT) is a Computer-Based Test web application developed 
 
 - Exam questions bulk upload via Microsoft Excel (.xlsx)
 - Exam schedule email notifications
-- Camera, microphone, and location permissions
+- Proctored exam permissions (camera, microphone, and location)
 - Result snapshot generation and secure off-prem storage
 - Certificate generation and verification link
 - Integrated **Machine Learning** model for malpractice detection
