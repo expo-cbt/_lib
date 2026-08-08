@@ -1,22 +1,15 @@
-# ExpoCBT Shared Docs & Assets
+# Course Overview
 
-## About ExpoCBT
-
-6 hours WEEKLY TRAINING
-2 hours weekly mentorship
-online exam and certification
-project research & presentation
-
-- [Version 2 (Under development)](https://github.com/expo-cbt/web)
-- [Version 1](https://github.com/expo-cbt/v1)
-
-![alt text](assets/exxpo-cbt-v1.png)
+- 6 hours Weekly Training ✅
+- 2 hours Weekly Mentorship ✅
+- Online Exam and Certification ✅
+- Project Research & Presentation ✅
 
 ## AI Product Engineering (12 Weeks)
 
 #### Design, Build & Deploy Cloud-Native Web Apps with Claude AI 🚀
 
-Software Development Life Cycle (SDLC)
+> A case study on developing **ExpoCBT**, an open-source CBT WebApp, using `Software Development Life Cycle (SDLC)`
 
 | Week  | Topic                                     | Tools & Frameworks                    |
 | ----- | ----------------------------------------- | ------------------------------------- |
@@ -34,7 +27,7 @@ Software Development Life Cycle (SDLC)
 
 #### Analyze, Train & Deploy Data Models on Cloud Jupyter Notebooks 🚀
 
-Cross-Industry Standard Process for Data Mining (CRISP-DM)
+> A case study on developing a Machine Learning Model, Web Service, and Data Pipeline for Exam Malpractice Detection using `Cross-Industry Standard Process for Data Mining (CRISP-DM)`.
 
 | Week  | Topic                                                            | Tools & Frameworks         |
 | ----- | ---------------------------------------------------------------- | -------------------------- |
@@ -47,3 +40,9 @@ Cross-Industry Standard Process for Data Mining (CRISP-DM)
 | 6     | Train, Test & Measure ML Model                                   | Scikit-learn, TensorFlow   |
 | 8     | Deploy ML Model as Interactive Python Notebook (.ipynb)          | Joblib, Kaggle             |
 | Bonus | Deploy ML Model as Data Pipeline & Web Service                   | Power BI, Django, Azure ML |
+
+## Next Steps
+
+- Follow [/expo-cbt](https://github.com/expo-cbt) organization on GitHub
+- Update [membership visibility](https://github.com/orgs/expo-cbt/people) to `public`
+- ⭐ Star and clone assigned repositories
