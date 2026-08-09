@@ -56,17 +56,17 @@ CRISP-DM is a 6-phase framework for delivering data science and AI projects.
 
 #### Course Outline
 
-| Week  | Topic                                                            | Tools & Frameworks         |
-| ----- | ---------------------------------------------------------------- | -------------------------- |
-| 1     | Define Situation, Task, Action, and Result (STAR)                |                            |
-| 2     | Exploratory Data Analysis (EDA)                                  |                            |
-| 2     | Data Cleaning, Synthetic Minority Oversampling Technique (SMOTE) |                            |
-| 3     | Normalization & Feature Engineering                              |                            |
-| 4     | Linear Regression, Logistic Regression, Decision Trees           |                            |
-| 5     | Random Forest, K-Means Clustering                                |                            |
-| 6     | Train, Test & Measure ML Model                                   | Scikit-learn, TensorFlow   |
-| 8     | Deploy ML Model as Interactive Python Notebook (.ipynb)          | Joblib, Kaggle             |
-| Bonus | Deploy ML Model as Data Pipeline & Web Service                   | Power BI, Django, Azure ML |
+| Week  | Topic                                                                  | Tools & Frameworks            |
+| ----- | ---------------------------------------------------------------------- | ----------------------------- |
+| 1     | Define Situation, Task, Action, and Result (STAR)                      |                               |
+| 2     | Exploratory Data Analysis (EDA)                                        |                               |
+| 2     | Data Cleaning, Synthetic Minority Oversampling Technique (SMOTE)       |                               |
+| 3     | Normalization & Feature Engineering                                    |                               |
+| 4     | Logistic Regression, Decision Trees, Random Forest, K-Means Clustering |                               |
+| 6     | Train, Test & Measure ML Model                                         | Scikit-learn, TensorFlow      |
+| 7     | Deploy ML Model                                                        | Joblib, Kaggle (.ipynb)       |
+| 8     | Deploy ML Model as Web Service/API                                     | Microsoft Power BI, Azure ML  |
+| Bonus | Deploy ML Model as Data Pipeline                                       | Python, Django REST Framework |
 
 ## Next Steps
 
