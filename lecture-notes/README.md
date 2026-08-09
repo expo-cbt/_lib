@@ -41,7 +41,7 @@ SDLC is the structured process used to plan, build, test, deploy, and maintain s
 
 #### Analyze, Train & Deploy Data Models on Cloud Jupyter Notebooks 🚀
 
-> A case study on developing a Machine Learning Model, Web Service, and Data Pipeline for Exam Malpractice Detection using `Cross-Industry Standard Process for Data Mining (CRISP-DM)`.
+> A case study on developing a Machine Learning Model, Web Service API, and Data Pipeline for Exam Malpractice Detection using `Cross-Industry Standard Process for Data Mining (CRISP-DM)`.
 
 CRISP-DM is a 6-phase framework for delivering data science and AI projects.
 
@@ -65,7 +65,7 @@ CRISP-DM is a 6-phase framework for delivering data science and AI projects.
 | 4     | Logistic Regression, Decision Trees, Random Forest, K-Means Clustering |                               |
 | 6     | Train, Test & Measure ML Model                                         | Scikit-learn, TensorFlow      |
 | 7     | Deploy ML Model                                                        | Joblib, Kaggle (.ipynb)       |
-| 8     | Deploy ML Model as API/Web Service                                     | Microsoft Power BI, Azure ML  |
+| 8     | Deploy ML Model as Web Service API                                     | Microsoft Power BI, Azure ML  |
 | Bonus | Deploy ML Model as Data Pipeline                                       | Python, Django REST Framework |
 
 ## Next Steps
