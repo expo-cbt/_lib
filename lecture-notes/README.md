@@ -65,8 +65,8 @@ CRISP-DM is a 6-phase framework for delivering data science and AI projects.
 | 4     | Logistic Regression, Decision Trees, Random Forest, K-Means Clustering |                               |
 | 6     | Train, Test & Measure ML Model                                         | Scikit-learn, TensorFlow      |
 | 7     | Deploy ML Model                                                        | Joblib, Kaggle (.ipynb)       |
-| 8     | Deploy ML Model as Web Service API                                     | Microsoft Power BI, Azure ML  |
-| Bonus | Deploy ML Model as Data Pipeline                                       | Python, Django REST Framework |
+| 8     | Deploy ML Model as Web Service API                                     | Python, Django REST Framework   |
+| Bonus | Deploy ML Model as Data Pipeline                                       |Microsoft Power BI, Azure ML  |
 
 ## Next Steps
 
