@@ -33,9 +33,29 @@ SDLC is the structured process used to plan, build, test, deploy, and maintain s
 | 3     | Design Systems & Mood Boards              | Figma                                 |
 | 4     | Develop Frontend UI Components            | TypeScript, React, Zustand            |
 | 7     | Develop & Integrate Backend APIs          | C#, .NET, PostgreSQL                  |
-| 10    | Automated Software Tests                  | Playwright, RTL + Vitest, xUnit + Moq |
+| 10    | Automated Software Testing, E2E           | Playwright, RTL + Vitest, xUnit + Moq |
 | 12    | CI/CD, DevOps, Cloud Deployment           | Vercel, Docker, Azure App Services    |
 | Bonus | Software Maintenance, Agile Workflows     | GitHub Projects (Kanban)              |
+
+## Mobile App Engineering (12 Weeks)
+
+#### Design, Build & Deploy Cross-Platform Mobile Apps with Claude AI 🚀
+
+> A case study on developing **Vivid Foods** - Frozen Foods & Drinks Vendor App, using `Software Development Life Cycle (SDLC)`
+
+#### Course Outline
+
+| Week  | Topic                                     | Tools & Frameworks                         |
+| ----- | ----------------------------------------- | ------------------------------------------ |
+| 1     | Product Requirements Document (PRD)       |                                            |
+| 1     | Software Requirements Specification (SRS) |                                            |
+| 2     | Entity Relationship Diagrams (ERD)        | Mermaid                                    |
+| 3     | Design Systems & Mood Boards              | Figma                                      |
+| 4     | Develop Frontend UI Components            | TypeScript, React Native, Zustand          |
+| 7     | Develop & Integrate Backend APIs          | Firestore, Firebase, Cloud Messaging (FCM) |
+| 10    | Automated Software Testing, E2E           | Detox, RTL + Jest                          |
+| 12    | CI/CD, DevOps, Cloud Deployment           | Expo EAS (Android, iOS & Web)              |
+| Bonus | Software Maintenance, Agile Workflows     | GitHub Projects (Kanban)                   |
 
 ## ML Data Engineering (8 Weeks)
 

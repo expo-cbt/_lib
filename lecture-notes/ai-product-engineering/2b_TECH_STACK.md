@@ -8,7 +8,7 @@
 
 - Tech stack, and why?
 - Infrastructure, and why?
-- Budget and time estimates?
+- time estimates and budget a (Ask, Offer, Deal)?
 
 # Documentation
 

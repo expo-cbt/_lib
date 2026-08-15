@@ -1,4 +1,4 @@
-# Modules & Models
+# Data Model
 
 ## Core Modules
 

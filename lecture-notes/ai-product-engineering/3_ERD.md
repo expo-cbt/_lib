@@ -51,3 +51,5 @@ Mermaid ERD is a way to create Entity-Relationship Diagrams using text/code with
 - `text`
 - `json`
 - `enum`
+
+## [Data Model](./3b_DATA_MODEL.md)
