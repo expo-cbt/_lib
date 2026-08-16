@@ -37,59 +37,53 @@
 ## System Architecture
 
 ```sh
-Next.js + React + TypeScript
+ TypeScript + React/Next.js
             │
             ▼
-     ASP.NET Core Web API
+     C# .NET Core Web API
             │
       ┌─────┴─────┐
       ▼           ▼
- Azure SQL    Azure Blob Storage
+ PostgreSQL  Azure Blob Storage
       │
       ▼
  Azure SQL Backups
 
-Azure Monitor + Application Insights
+Azure Monitor + App Insights
             │
             ▼
        Monitoring
 ```
 
-````sh
+```sh
                     ┌─────────────────────┐
-                    │      Candidate      │
                     │      Examiner       │
-                    │       Seeder        │
+                    │      Candidates     │
                     └──────────┬──────────┘
                                │
                                ▼
-                 ┌─────────────────────────┐
-                 │ Next.js + React + TS    │
-                 │      Frontend           │
-                 └────────────┬────────────┘
+                 ┌────────────────────────────┐
+                 │ TypeScript + React/Next.js │
+                 └────────────┬───────────────┘
                               │ HTTPS / REST
                               ▼
                  ┌─────────────────────────┐
-                 │ ASP.NET Core Web API    │
-                 │       Backend           │
+                 │   C# .NET Core Web API  │
                  ├─────────────────────────┤
                  │ Authentication          │
-                 │ Authorization            │
+                 │ Authorization           │
                  │ Exam Management         │
                  │ Question Management     │
-                 │ Exam Attempts           │
-                 │ Scoring                 │
-                 │ Results                 │
+                 │ Result Processing       │
                  └───────┬─────────┬───────┘
                          │         │
-               ┌─────────▼───┐   ┌─▼────────────────┐
-               │ PostgreSQL  │   │ Azure Blob        │
-               │  Database   │   │ Storage           │
-               └─────────────┘   └──────────────────┘
+               ┌─────────▼───┐   ┌─▼────────────┐
+               │ PostgreSQL  │   │ Azure Blob   │
+               │  Database   │   │ Storage      │
+               └─────────────┘   └──────────────┘
 
-                 ┌─────────────────────────┐
-                 │ Azure Monitor +         │
-                 │ Application Insights    │
-                 └─────────────────────────┘
-                 ```
-````
+                 ┌──────────────────┐
+                 │ Azure Monitor +  │
+                 │ App Insights     │
+                 └──────────────────┘
+```
