@@ -1,96 +1,72 @@
-# Course Overview
+# Lecture Notes
 
-- 6 hours Weekly Training on [YouTube](https://youtube.com/@2gbeh) ✅
+## Course Overview
+
+- 4 hours Weekly Training on [YouTube](https://youtube.com/@2gbeh) ✅
 - 2 hours Weekly Mentorship on [Twitter](https://x.com/@2gbeh) ✅
 - Online Exam and Certification ✅
 - Project Research & Presentation ✅
 
-## AI Product Engineering (12 Weeks)
+## Featured Courses
 
-#### Design, Build & Deploy Cloud-Native Web Apps with Claude AI 🚀
+- [AI Product Engineering](./ai-product-engineering/)
+- [ML Data Engineering](./ml-data-engineering/)
+- [Mobile App Engineering](./mobile-app-engineering/)
 
-> A case study on developing **ExpoCBT**, an open-source CBT WebApp, using `Software Development Life Cycle (SDLC)`
+## Professional Courses
 
-SDLC is the structured process used to plan, build, test, deploy, and maintain software.
+### Non-Technical Courses
 
-| Phase | Activity              | Description                                            |
-| ----- | --------------------- | ------------------------------------------------------ |
-| 1     | Planning              | Define goals, scope, budget, and timeline              |
-| 2     | Requirements Analysis | Gather and document user needs                         |
-| 3     | Design                | Create the system architecture and UI/database designs |
-| 4     | Development           | Write the code                                         |
-| 5     | Testing               | Find and fix bugs; verify requirements are met         |
-| 6     | Deployment            | Release the software to users                          |
-| 7     | Maintenance           | Fix issues, update features, and improve performance   |
+| Title                 | Description                                      |
+| --------------------- | ------------------------------------------------ |
+| UI/UX Designer        | Design Systems, Mood Boards, Prototyping (Figma) |
+| Agile Product Manager | Jira, Notion, GitHub Projects                    |
 
-#### Course Outline
+### Web Design & Development
 
-| Week  | Topic                                     | Tools & Frameworks                    |
-| ----- | ----------------------------------------- | ------------------------------------- |
-| 1     | Product Requirements Document (PRD)       |                                       |
-| 1     | Software Requirements Specification (SRS) |                                       |
-| 2     | Entity Relationship Diagrams (ERD)        | Mermaid                               |
-| 3     | Design Systems & Mood Boards              | Figma                                 |
-| 4     | Develop Frontend UI Components            | TypeScript, React, Zustand            |
-| 7     | Develop & Integrate Backend APIs          | C#, .NET, PostgreSQL                  |
-| 10    | Automated Software Testing, E2E           | Playwright, RTL + Vitest, xUnit + Moq |
-| 12    | CI/CD, DevOps, Cloud Deployment           | Vercel, Docker, Azure App Services    |
-| Bonus | Software Maintenance, Agile Workflows     | GitHub Projects (Kanban)              |
+| Title                       | Description                                                             |
+| --------------------------- | ----------------------------------------------------------------------- |
+| Web Design Fundamentals     | HTML5, CSS3, Mobile Responsive, Accessibility                           |
+| Frontend Engineer           | TypeScript (React/Next.js or Angular)                                   |
+| Backend Engineer            | TypeScript (Node.js), Python (FastAPI)                                  |
+| Enterprise Backend Engineer | TypeScript (NestJS), C# (ASP.NET Core)                                  |
+| Full-Stack Engineer         | TypeScript (Next.js), Python (Django), C# (ASP.NET Core), PHP (Laravel) |
 
-## Mobile App Engineering (12 Weeks)
+### Mobile App Development
 
-#### Design, Build & Deploy Cross-Platform Mobile Apps with Claude AI 🚀
+| Title                            | Description                        |
+| -------------------------------- | ---------------------------------- |
+| Mobile App Developer             | TypeScript (React Native, Expo)    |
+| Mobile App Engineer (Full-Stack) | React Native, Firebase or Supabase |
 
-> A case study on developing **Vivid Foods** - Frozen Foods & Drinks Vendor App, using `Software Development Life Cycle (SDLC)`
+### CI/CD Cloud Deployment
 
-#### Course Outline
+| Title                    | Description        |
+| ------------------------ | ------------------ |
+| DevOps Engineer (Web)    | AWS, Azure         |
+| DevOps Engineer (Mobile) | Firebase, Expo EAS |
 
-| Week  | Topic                                     | Tools & Frameworks                         |
-| ----- | ----------------------------------------- | ------------------------------------------ |
-| 1     | Product Requirements Document (PRD)       |                                            |
-| 1     | Software Requirements Specification (SRS) |                                            |
-| 2     | Entity Relationship Diagrams (ERD)        | Mermaid                                    |
-| 3     | Design Systems & Mood Boards              | Figma                                      |
-| 4     | Develop Frontend UI Components            | TypeScript, React Native, Zustand          |
-| 7     | Develop & Integrate Backend APIs          | Firestore, Firebase, Cloud Messaging (FCM) |
-| 10    | Automated Software Testing, E2E           | Detox, RTL + Jest                          |
-| 12    | CI/CD, DevOps, Cloud Deployment           | Expo EAS (Android, iOS & Web)              |
-| Bonus | Software Maintenance, Agile Workflows     | GitHub Projects (Kanban)                   |
+### Artificial Intelligence (AI)
 
-## ML Data Engineering (8 Weeks)
+| Title                        | Description                     |
+| ---------------------------- | ------------------------------- |
+| AI Software Engineer         | Python (FastAPI), OpenAI        |
+| AI Automation Engineer (MCP) | RAG, LangChain, Vector Database |
+| AI Automation Architect      | n8n, Zapier, Stepper            |
 
-#### Analyze, Train & Deploy Data Models on Cloud Jupyter Notebooks 🚀
+### Data Science & Machine Learning (ML)
 
-> A case study on developing a Machine Learning Model, Web Service API, and Data Pipeline for Exam Malpractice Detection using `Cross-Industry Standard Process for Data Mining (CRISP-DM)`.
+| Title                     | Description                 |
+| ------------------------- | --------------------------- |
+| Data Analyst Professional | Microsoft Excel, Power BI   |
+| Data Analyst Engineer     | Python (Django), PostgreSQL |
+| ML Data Scientist         | Python, Kaggle              |
+| ML Data Engineer          | Python (Django), Azure ML   |
 
-CRISP-DM is a 6-phase framework for delivering data science and AI projects.
+### Blockchain/Web3
 
-| Phase | Activity               | Description                                                              |
-| ----- | ---------------------- | ------------------------------------------------------------------------ |
-| 1     | Business Understanding | Define objectives and requirements from a business perspective           |
-| 2     | Data Understanding     | Collect and explore initial data to identify quality issues/insights     |
-| 3     | Data Preparation       | Clean, transform, and structure data for modeling                        |
-| 4     | Modeling               | Select and apply appropriate machine learning algorithm, tune parameters |
-| 5     | Evaluation             | Test the model using unseen data to measure its accuracy                 |
-| 6     | Deployment             | Release trained model into production for real-world predictions         |
-
-#### Course Outline
-
-| Week  | Topic                                                                  | Tools & Frameworks            |
-| ----- | ---------------------------------------------------------------------- | ----------------------------- |
-| 1     | Define Situation, Task, Action, and Result (STAR)                      |                               |
-| 2     | Exploratory Data Analysis (EDA)                                        |                               |
-| 2     | Data Cleaning, Synthetic Minority Oversampling Technique (SMOTE)       |                               |
-| 3     | Normalization & Feature Engineering                                    |                               |
-| 4     | Logistic Regression, Decision Trees, Random Forest, K-Means Clustering |                               |
-| 6     | Train, Test & Measure ML Model                                         | Scikit-learn, TensorFlow      |
-| 7     | Deploy ML Model                                                        | Joblib, Kaggle (.ipynb)       |
-| 8     | Deploy ML Model as Web Service API                                     | Python, Django REST Framework |
-| Bonus | Deploy ML Model as Data Pipeline                                       | Microsoft Power BI, Azure ML  |
-
-## Next Steps
-
-- Follow [/expo-cbt](https://github.com/expo-cbt) organization on GitHub
-- Update [membership visibility](https://github.com/orgs/expo-cbt/people) to `public`
-- Explore [Kanban Boards](https://github.com/orgs/expo-cbt/projects)
-- ⭐ Star and clone assigned repositories
+| Title                            | Description                          |
+| -------------------------------- | ------------------------------------ |
+| Web3 Developer (dApp)            | Ethers.js, Hardhat                   |
+| Smart Contracts Developer (DeFi) | Solidity, Foundry                    |
+| Blockchain Engineer (Full-Stack) | Uniswap SDK, Chainlink, OpenZeppelin |
