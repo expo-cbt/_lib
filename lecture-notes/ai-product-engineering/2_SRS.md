@@ -7,14 +7,14 @@ It is written mainly by the **System Analysts**, and focuses on technical and fu
 #### Outline
 
 - Functional requirements
-- Non-functional requirements (performance, security, reliability)
+- Non-functional requirements
 - System constraints
 - Interfaces
 - Acceptance criteria
 
 #### Discussion
 
-- Cybersecurity and malpractice prevention?
+- NFS (Performance, Security, Reliability)
 - - Use of Universally Unique Identifier (UUID)
 - - Mask person identity fields in database (name, email, tel)
 - - Proctored exam permissions

@@ -1,4 +1,4 @@
-# Mobile App Engineering (12 Weeks)
+# Mobile App Engineering (14 Weeks)
 
 Design, Build & Deploy Cross-Platform Mobile Apps with Claude AI 🚀
 

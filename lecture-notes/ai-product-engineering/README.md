@@ -1,4 +1,4 @@
-# AI Product Engineering (12 Weeks)
+# AI Product Engineering (14 Weeks)
 
 Design, Build & Deploy Cloud-Native Web Apps with Claude AI 🚀
 

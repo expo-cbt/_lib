@@ -1,4 +1,4 @@
-# ML Data Engineering (8 Weeks)
+# ML Data Engineering (10 Weeks)
 
 Analyze, Train & Deploy Data Models on Cloud Jupyter Notebooks 🚀
 

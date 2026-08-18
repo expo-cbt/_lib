@@ -25,7 +25,6 @@ It is written mainly by the **Product Manager**, and focuses on business goals, 
 - - Feedback after test*
 
 # Documentation
-# Documentation
 
 > PROMPT: generate prd markdown file for basic cbt web app
 

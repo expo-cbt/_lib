@@ -50,7 +50,7 @@
 
 | Title                        | Description                     |
 | ---------------------------- | ------------------------------- |
-| AI Software Engineer         | Python (FastAPI), OpenAI        |
+| AI Software Engineer (LLM)   | Python (FastAPI), OpenAI        |
 | AI Automation Engineer (MCP) | RAG, LangChain, Vector Database |
 | AI Automation Architect      | n8n, Zapier, Stepper            |
 
