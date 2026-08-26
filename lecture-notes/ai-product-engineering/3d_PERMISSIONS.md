@@ -4,6 +4,7 @@
 
 - Users can have multiple roles
 - Access rights can be managed from the FE
+- Declarative type-safe access rights validation
 - Maintain kebab-casing
 
 ```ts
