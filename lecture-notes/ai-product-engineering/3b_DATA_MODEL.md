@@ -29,24 +29,25 @@
 | Entity            | Description                                       |
 | ----------------- | ------------------------------------------------- |
 | User              | User auth and account info                        |
+| UserRole          | Users assigned to roles                           |
+| Resource / Policy | Permitted resource endpoints                      |
 | Role              | User types: `admin`, `examiner`, `candidate`      |
 | Permission        | Permitted resource, actions, and scope (optional) |
 | RolePermission    | Permissions assigned to roles                     |
-| UserRole / Policy | Users assigned to roles                           |
-| Setting ⏳        | App configuration                                 |
-| UserSetting ⏳    | User configuration                                |
+| Setting ⏳        | App configuration (vertical)                      |
+| UserSetting ⏳    | User configuration (horizontal)                   |
 | Notification ⏳   | Notification messages                             |
 | AuditLog          | Captures in-app activities                        |
 
 #### Domain Models
 
-| Entity                  | Description                     |
-| ----------------------- | ------------------------------- |
-| Exam                    | Exam details                    |
-| ExamQuestion / Question | Questions assigned to exams     |
-| ExamCandidate           | Candidates assigned to exams    |
-| Answer                  | Answers submitted by candidates |
-| Result                  | Candidates scores               |
+| Entity    | Description                     |
+| --------- | ------------------------------- |
+| Admission | Candidates apply for exams      |
+| Exam      | Exam details                    |
+| Question  | Questions assigned to exams     |
+| Answer    | Answers submitted by candidates |
+| Result    | Candidates scores               |
 
 ## Mermaid ERD
 
@@ -84,6 +85,14 @@ erDiagram
         uuid uuid
     }
 
+    ADMISSION {
+        uuid user_uuid FK
+        uuid exam_uuid FK
+        %% applied | approved | rejected
+        CandidateStatus status
+        uuid uuid
+    }
+
     EXAM {
         uuid user_uuid FK
         string avatar_url
@@ -95,6 +104,7 @@ erDiagram
         int questions
         float pass_mark
         boolean randomize
+        boolean use_screenshare
         boolean use_camera
         boolean use_microphone
         boolean use_location
@@ -105,7 +115,7 @@ erDiagram
         uuid uuid
     }
 
-    EXAM_QUESTION {
+    QUESTION {
         uuid exam_uuid FK
         text title
         text description
@@ -135,12 +145,13 @@ erDiagram
         uuid uuid
     }
 
+    USER ||--o{ ADMISSION : applies
     USER ||--o{ EXAM : creates
     USER ||--o{ ANSWER : submits
     USER ||--o{ RESULT : receives
-    EXAM ||--o{ EXAM_QUESTION : contains
+    EXAM ||--o{ QUESTION : contains
     EXAM ||--o{ RESULT : produces
-    EXAM_QUESTION ||--o{ ANSWER : has
+    QUESTION ||--o{ ANSWER : has
 ```
 
 #### Constraints

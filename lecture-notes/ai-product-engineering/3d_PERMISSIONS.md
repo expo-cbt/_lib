@@ -1,36 +1,61 @@
 # Roles & Permissions
 
-## REEBOK (Progressive Role-Based Access Control)
+## RRBAC (Relational Role-Based Access Control)
+
+- Users can have multiple roles
+- Access rights can be managed from the FE
+- Maintain kebab-casing
 
 ```ts
-const users = [
-  { id: 1, name: "Alice", role_id: 1 },
-  { id: 2, name: "Bob", role_id: 2 },
-];
+const users = [{ id: 1, name: "Sterling" }];
 
-const userRoles = [
-  { id: 1, name: "Alice", role_id: 1 },
-  { id: 2, name: "Bob", role_id: 2 },
+const userRoles = [{ id: 1, user_id: 1, role_id: 3 }]; // candidate
+
+const resources = [
+  { id: 1, name: "admissions" },
+  { id: 2, name: "exams" },
+  { id: 3, name: "questions" },
+  { id: 4, name: "answers" },
+  { id: 5, name: "results" },
 ];
 
 const roles = [
-  { id: 1, name: "Admin" },
-  { id: 2, name: "Editor" },
+  { id: 1, name: "admin" },
+  { id: 2, name: "examiner" },
+  { id: 3, name: "candidate" },
 ];
 
 const permissions = [
-  { id: 1, name: "create_post" },
-  { id: 2, name: "delete_post" },
-  { id: 3, name: "edit_post" },
+  { id: 1, resource_id: 1, action: "create" }, // apply for exam
+  { id: 2, resource_id: 1, action: "delete" }, // withdraw application
+  { id: 3, resource_id: 4, action: "create" }, // answer question
+  { id: 4, resource_id: 4, action: "update" }, // update answer
+  { id: 5, resource_id: 5, action: "read" }, // view result
 ];
 
 const rolePermissions = [
-  { role_id: 1, permission_id: 1 },
-  { role_id: 1, permission_id: 2 },
-  { role_id: 1, permission_id: 3 },
-  { role_id: 2, permission_id: 1 },
-  { role_id: 2, permission_id: 3 },
+  { id: 1, role_id: 3, permission_id: 1 },
+  { id: 1, role_id: 3, permission_id: 2 },
+  { id: 1, role_id: 3, permission_id: 3 },
+  { id: 1, role_id: 3, permission_id: 4 },
+  { id: 1, role_id: 3, permission_id: 5 },
 ];
+```
+
+```ts
+const user = {
+  id: 1,
+  name: "Sterling",
+  roles: ["candidate"],
+  permissions: {
+    admissions: ["create", "delete"],
+    answers: ["create", "update"],
+    results: ["read"],
+  },
+};
+
+const isAdmin = user.roles?.includes("admin"); // false
+const canCreateExams = user.permissions?.["exams"]?.includes("create"); // false
 ```
 
 ## RBAC (Role-Based Access Control)
