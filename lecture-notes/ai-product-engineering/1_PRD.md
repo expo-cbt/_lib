@@ -22,7 +22,7 @@ It is written mainly by the **Product Manager**, and focuses on business goals, 
 - - Practice test ✨
 - - Detailed instructions
 - - Timer indicator when less than 5mins left
-- - Feedback after test*
+- - Feedback after test\*
 
 # Documentation
 

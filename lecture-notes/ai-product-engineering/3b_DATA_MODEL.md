@@ -62,6 +62,9 @@ erDiagram
         uuid created_by
         uuid updated_by
         uuid deleted_by
+        string created_why
+        string updated_why
+        string deleted_why
     }
 
     USER {

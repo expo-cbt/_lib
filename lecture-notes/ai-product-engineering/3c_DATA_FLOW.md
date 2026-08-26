@@ -1,21 +1,33 @@
-# Data Flow
-
-## Flowchart
+# Understanding Data Flows with Flowcharts
 
 A **flowchart** is a diagram that visually represents the steps of a process using shapes and arrows, showing the sequence of actions, decisions, and outcomes from start to end.
 
 - **Oval/rounded rectangle (Terminator)** — start/end points of a process
-- **Rectangle (Process)** — a step, action, or task
-- **Diamond (Decision)** — a yes/no or branching point
-- **Parallelogram (Input/Output)** — data entering or leaving the process
-- **Circle (Connector)** — links one part of the flowchart to another, often across pages
 - **Arrow (Flow line)** — shows direction/sequence between shapes
-- **Rectangle with double-struck sides (Predefined process/Subroutine)** — a step that's actually a separate, defined process elsewhere
+- **Rectangle (Process)** — a step, action, or task
 - **Trapezoid (Manual operation)** — a step done manually, not by a system
+- **Parallelogram (Input/Output)** — data entering or leaving the process
+- **Diamond/Rhombus (Decision)** — a yes/no or branching point
 - **Cylinder (Database)** — represents data storage
-- **Document shape (wavy bottom)** — represents a document or report generated in the process
+- **Asymmetric/flag (Storage)** — represents a document or report generated in the process, Document shape with wavy bottom
 - **Hexagon (Preparation)** — a setup or initialization step before the main process begins
+- **Double-struck Rectangle (Subroutine)** — a step that's actually a separate, defined process elsewhere
+- **Circle (Connector, Goto)** — links one part of the flowchart to another, often across pages
 
+#### Shapes
+
+```sh
+Oval(start/end)
+Hexagon{{setup}}
+Rectangle[step]
+Trapezoid[/Manuel step\]
+Parallelogram[/input/output/]
+Diamond_Rhombus{decision}
+Flag>storage]
+Cylinder[(database)]
+DoubleStruck_Rectangle[[subroutine]]
+Circle((goto))
+```
 
 ## Mermaid Flowchart
 

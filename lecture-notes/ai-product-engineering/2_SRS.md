@@ -15,10 +15,14 @@ It is written mainly by the **System Analysts**, and focuses on technical and fu
 #### Discussion
 
 - NFS (Performance, Security, Reliability)
+- [SOC 2 Compliance](./2c_SECURITY.md)
 - - Use of Universally Unique Identifier (UUID)
 - - Mask person identity fields in database (name, email, tel)
-- - Proctored exam permissions
-- - Generate result snapshot and securely store off-prem
+- - Audit trail and Audit logs
+- Generate result snapshot and securely store off-prem (cold-storage archive)
+- Proctored exam permissions
+- Sync/Async endpoints
+- Postgres (primary + read replica for reporting)
 
 # Documentation
 
