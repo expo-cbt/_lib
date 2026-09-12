@@ -1,6 +1,6 @@
 # Roles & Permissions
 
-## RRBAC (Relational Role-Based Access Control)
+## R-RBAC (Relational Role-Based Access Control)
 
 - Users can have multiple roles
 - Access rights can be managed from the FE

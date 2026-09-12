@@ -1,3 +1,14 @@
+A design system is a shared collection of reusable UI components, patterns, and standards (colors, typography, spacing) that ensures consistency across products.
+
+- Design tokens (colors, spacing, typography, shadows)
+- Component library (buttons, inputs, modals, cards, etc.)
+- Grid & layout system
+- Icon set
+- Documentation/guidelines
+- Accessibility standards
+- Voice & tone/content guidelines
+- Governance/contribution process
+
 Moodboard
 A4
 Logos
