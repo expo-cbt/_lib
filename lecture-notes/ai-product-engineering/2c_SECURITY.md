@@ -95,3 +95,44 @@ So beforeState on row N = afterState on row N-1. Nothing is lost — you get the
 // row 3: UPDATE
 { "action": "UPDATE", "beforeState": { "status": "APPROVED", "amount": 5000 }, "afterState": { "status": "PAID", "amount": 5000 } }
 ```
+
+## Proctor 
+
+Here's a concise script (~2-3 min at natural speaking pace, ~350-400 words):
+
+**Intro (15s)**
+Hi, I'm [Name], a software engineer with hands-on experience building AI/ML-powered systems, most recently an exam proctoring platform for a CBT (Computer-Based Testing) exam web app.
+
+**Problem/Context (20s)**
+The core challenge: how do you ensure exam integrity remotely, without a human proctor watching every candidate live? My solution was a multi-modal AI proctoring web service.
+
+**What I built (60-70s)**
+- Location verification to confirm candidates are testing from approved/expected locations
+- Live video monitoring with AI-based face detection and behavior analysis to flag suspicious movement or multiple faces
+- Audio monitoring to detect background voices or conversation during the exam
+- Screen-share capture to detect tab-switching, unauthorized apps, or screen anomalies
+- Image/snapshot analysis at intervals for identity verification and environment checks
+
+**Technical highlights (30-40s)**
+- Integrated ML models for face detection/recognition and anomaly scoring
+- Built real-time data pipelines handling video/audio streams with low latency
+- Designed the system to flag violations automatically and generate a proctoring report for exam admins to review
+
+**Impact (15-20s)**
+This reduced manual review time significantly and gave exam administrators confidence in remote testing integrity at scale.
+
+**Closing (10s)**
+That's a snapshot of my AI/ML work — happy to dive deeper into any part of it.
+
+**AI (rule-based/inference, not learned from data by you):**
+- Location verification (geolocation checks against rules)
+- Screen-share anomaly detection (tab-switching, app-switching rules)
+- Automated flagging/report generation logic
+
+**ML (models trained on data, pattern recognition):**
+- Face detection/recognition (identity verification)
+- Behavior analysis from video (movement, multiple-face detection)
+- Audio analysis (voice/background noise detection)
+- Image snapshot analysis (environment/identity checks)
+
+Note: face detection and audio analysis are technically ML *applications* — you likely used pretrained models/APIs (not trained your own), which is worth being precise about in the video if asked follow-up questions.
